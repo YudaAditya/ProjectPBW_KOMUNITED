@@ -1,10 +1,40 @@
+.navbar{
+	background-color: transparent;
+  font-family:'montserrat', sans-serif;
+
+}
+
+.navbar a {
+  font-size: 25px;
+  color: white;
+  float: left;
+}
+.navbar a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.navbar .active{
+  text-decoration: underline;
+}
+.navbar a:active{
+  text-decoration: underline;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom left,#2E3192 , #1BFFFF);
+}
+
+/*DropButton*/
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: transparent;
     color: white;
-    padding: 16px;
+    padding: 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+	font-family: 'montserrat', sans-serif;
+  font-size: 25px;
 }
 
 .dropdown {
@@ -15,25 +45,26 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: transparent;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: grey;
+	opacity: inherit;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: transparent;
 }
