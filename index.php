@@ -1,29 +1,66 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="Style.css">
-    <link rel="stylesheet"type="text/css" href="/bootstrap-4/css/bootstrap.min.css">
+<html lang="en">
+<head>
+  <title>KOMUNITED - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>KOMUNITED-Home</title>
-  </head>
+  <link rel="stylesheet" href="bootstrap/4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/4.0/css/Style.css">
 
-  <body>
-<div class="navbar">
-      <a class="active" href="index.php">Home</a>
-      <a href="calendar.html">Calendar</a>
+</head>
+<body>
 
-  <div class="dropdown">
-    <button class="dropbtn">Profile</button>
-      <div class="dropdown-content">
-        <a href="#">Founder Profile</a>
-        <a href="#">Community Profile</a>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">KOMUNITED</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Calendar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Category</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Profile
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Founder Profile</a>
+        <a class="dropdown-item" href="#">Community Profile</a>
       </div>
-    </div>
-      <a href="category">Category</a>
-      <a href="tips.html">Tips</a>
-      <a href="about.html">About</a>
-</div>
-  </body>
+    </li>
+
+    <!--Links-->
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">     </a>
+    </li>
+
+  <form>
+    <input class="text-center" id="right" type="text" name="search" placeholder="">
+  </form>
+  <li class="nav-item">
+    <a class="nav-link" href="#">     </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="right" href="form.php">Sign Up</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="right" href="Login.php">Sign In</a>
+  </li>
+  </ul>
+
+</nav>
+
+</body>
 </html>
